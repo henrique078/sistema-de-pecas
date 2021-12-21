@@ -16,14 +16,14 @@ if (numeroPecas < 10) {
     console.log("Erro! Limite de peças excedido!")
 };
 
-let nomePeca = "Disco de Freio";
+let nomePeca = "Disco de freio";
 
 console.log ("O comprimento do nome da peça é:", nomePeca.length);
 
 let tamanhoNome = nomePeca.length;
 
 if (tamanhoNome < 3 ) {
-    console.log("Não é possível cadastrar! Nome muito pequeno");
+    console.log("Não é possível cadastrar! Nome muito curto!");
 } else {
     console.log("Peça cadastrada!")
 }
